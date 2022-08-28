@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="webview01" type="id" />
+    <item name="webView" type="id" />
+    <item name="webview_sample" type="id" />
+    <item name="myweb" type="id" />
+    <item name="os_view" type="id" />
+    <item name="main_web_view" type="id" />
+</resources>
