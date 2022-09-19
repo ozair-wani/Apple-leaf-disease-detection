@@ -21,12 +21,24 @@
 	      }
 	    </style>
 	    <link rel="stylesheet" href="/static/style.css">
+	    <style>
+	    	@media screen and (max-width: 600px) {
+  				body {
+    					background-image:url(/static/background.jpg);background-size:100%;
+  					}
+			}
+ 			@media screen and (min-width: 601px) {
+  				body {
+    					background-image:url(/static/b1.jpg);background-size:100%;
+  					}
+			}
+	    </style>
 
 		<title></title>
 	</head>
-	<body class="text-center" style="background-image:url(/static/background.jpg);background-size:100%;">
+	<body class="text-center" >
 		
-	<form class="form-signin" method=post enctype=multipart/form-data style="background-color:powderblue;border-radius:30px;">
+	<form class="form-signin" method=post enctype=multipart/form-data style="background-color:#56d3f5;border-radius:30px;">
 		<h1 class="h2 mb-3 font-weight-normal">Apple Leaf Disease Predictor</h1>
 		<h2 class="h4 mb-3 font-weight-normal">Please Upload The Image</h2>
 		<input type="file" name="file" class="form-control-file" id="inputfile"  onchange="preview_image(event)">
