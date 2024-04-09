@@ -25,19 +25,14 @@
 		<title></title>
 	</head>
 	<body class="text-center" style="background-image:url(/static/background.jpg);background-size:100%;">
-		<form class="form-signin" method=post enctype=multipart/form-data style="background-color:#56d3f5;border-radius:30px;">
+		<form class="form-signin" method=post enctype=multipart/form-data style="background-color:#50EAEB;border-radius:30px;border: 10px solid #BF33C9">
 		{% if name == "healthy" %}
 			<h1 class="h1 mb-3 font-weight-normal"> Plant is Healthy! </h1>
 		{% else %}
 			<h1 class="h1 mb-3 font-weight-normal"> Apple leaf is infected by {{ name }} disease!</h1>
 			<h3 class="h5 mb-3 font-weight-normal"> {{ description }} </h3> 
 		{% endif %}
-		<p class="mt-5 mb-3 text-muted">Powered by PyTorch, Flask, and Bootstrap.</p>
-		<div class="row">
-			<div class="col-sm-4 align-self-center"><img src="/static/pt.png" alt="" width="60"></div>
-			<div class="col-sm-4 align-self-center"><img src="/static/flask.png" alt="" width="90"></div>
-			<div class="col-sm-4 align-self-center"><img src="/static/bs.png" alt="" width="50"></div>
-		</div>
+		
 		<p class="mt-5 mb-3" style="text-align:center;background-color:lightseagreen;border-radius:35px 0px 35px 0px;padding:10px;"><b>Project By Ozair Wani and Umer Zahoor</b></p>
 	</form>
 
