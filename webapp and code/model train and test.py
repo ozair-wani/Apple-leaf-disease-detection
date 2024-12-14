@@ -1,3 +1,4 @@
+#this approach was inspired from https://github.com/khalidmeister/apple-leaf-disease-prediction
 #First we must import the libraries which are needed.
 import time
 import os
